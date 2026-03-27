@@ -1,8 +1,5 @@
 # LibraryManagementSystem
 Simple Library Management System using ASP.NET Core and SQL, MVC with Ado.net
-
-# Library Management System
-
 ## Features
 - Add Book
 - Edit Book
@@ -28,7 +25,12 @@ Table: Books
 ## How to Run
 1. Open project in Visual Studio
 2. Configure connection string
-3. Run project
+   
+## ConnectionString
+"ConnectionStrings": {
+  "DefaultConnection": "Server=MY-server;Database=LibraryDB;Trusted_Connection=True;"
+}
+3.Run project
 
 ## Author
 Umesh
